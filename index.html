@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUNGRY FOOD PROJECT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="food-show-area">
+        <div class="container">
+            <div class="section-title text-center mb-5 text-uppercase">
+                <h1 class="title">hungry <span>food</span></h1>
+            </div>
+
+            <!-- search area -->
+            <div class="food-container text-center">
+                <div class="input_search-area">
+                    <input type="search" name="" id="inputSearch" placeholder="Type Food Name">
+                    <button type="submit" id="submit_food">Search</button>
+                </div>
+            </div>
+            <!-- search area -->
+
+            <!--food area-->
+            <div class="food-item-wrap">
+                <div class="row" id="meal">
+                    <h1 class='search-content-heading'>Search by typing the name of your food in the search box above</h1>
+                </div>
+            </div>
+            <!--food area -->
+
+            <!--food details area-->
+            <div id="food_details" class="food-content meal-details-content"></div>
+            <!--food details area-->
+        </div>
+    </section>
+
+    <script src="food.js"></script>
+
+</body>
+
+</html>
+
+

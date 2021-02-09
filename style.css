@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.food-show-area {
+    position: relative;
+    padding: 60px 0;
+}
+
+h1.title {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h1.title span {
+    color: rgb(74, 45, 238)
+}
+
+.input_search-area {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.input_search-area input {
+    border: 2px solid #ddd;
+    width: 300px;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.input_search-area button {
+    border: 2px solid #008000;
+    padding: 8px 31px;
+    border-radius: 10px;
+    font-weight: 700;
+    background: green;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.food-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.food-item {
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px #ddd;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.food-content {
+    position: fixed;
+    width: 340px;
+    height: auto;
+    top: 100px;
+    left: 10px;
+    background: #28a745;
+    padding: 0px 20px;
+    border-radius: 15px;
+}
+
+.food-content img {
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1.search-content-heading {
+    font-family: 'Galada', cursive;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.food-content h2 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.food-content ul li {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.food-content ul li span {
+    margin-right: 10px;
+}
+
+.notFound {
+    font-family: 'Galada', cursive;
+    font-size: 40px;
+    width: 80%;
+    margin: 30px auto;
+}
